@@ -879,8 +879,8 @@ importers:
         specifier: ^0.7.0
         version: 0.7.0
       dompurify:
-        specifier: ^3.0.6
-        version: 3.0.6
+        specifier: ^3.1.3
+        version: 3.1.3
       envalid:
         specifier: ^7.3.1
         version: 7.3.1
@@ -1244,8 +1244,8 @@ importers:
         specifier: ^2.30.0
         version: 2.30.0
       dompurify:
-        specifier: ^3.0.4
-        version: 3.0.6
+        specifier: ^3.1.3
+        version: 3.1.3
       highlight.js:
         specifier: ^10.7.3
         version: 10.7.3
@@ -1709,8 +1709,8 @@ importers:
   client/wildcard:
     dependencies:
       dompurify:
-        specifier: ^3.0.6
-        version: 3.0.6
+        specifier: ^3.1.3
+        version: 3.1.3
       highlight.js:
         specifier: ^10.5.0
         version: 10.7.3
@@ -1857,7 +1857,7 @@ packages:
       object-assign: 4.0.1
       skatejs: 0.13.17
       skatejs-template-html: 0.0.0
-      tether: github.com/atlassian/tether/bf85430889b5231fbe5b383416cce6281225bf06
+      tether: git@github.com+atlassian/tether/bf85430889b5231fbe5b383416cce6281225bf06
       trim-extra-html-whitespace: 1.3.0
       underscore: 1.13.1
       webcomponents.js: 0.7.20
@@ -15231,8 +15231,8 @@ packages:
       domelementtype: 2.3.0
     dev: true
 
-  /dompurify@3.0.6:
-    resolution: {integrity: sha512-ilkD8YEnnGh1zJ240uJsW7AzE+2qpbOUYjacomn3AvJ6J4JhKGSZ2nh4wUIXPZrEPppaCLx5jFe8T89Rk8tQ7w==}
+  /dompurify@3.1.3:
+    resolution: {integrity: sha512-5sOWYSNPaxz6o2MUPvtyxTTqR4D3L77pr5rUQoWgD5ROQtVIZQgJkXbo1DLlK3vj11YGw5+LnF4SYti4gZmwng==}
 
   /domutils@2.8.0:
     resolution: {integrity: sha512-w96Cjofp72M5IIhpjgobBimYEfoPjx1Vx0BSX9P30WBdZW2WIKU0T1Bd0kz2eNZ9ikjKgHbEyKx8BB6H1L3h3A==}
@@ -20041,7 +20041,7 @@ packages:
       d3-sankey: 0.12.3
       dagre-d3-es: 7.0.10
       dayjs: 1.11.10
-      dompurify: 3.0.6
+      dompurify: 3.1.3
       elkjs: 0.9.3
       katex: 0.16.10
       khroma: 2.1.0
@@ -26946,8 +26946,8 @@ packages:
       react: 18.1.0
     dev: false
 
-  github.com/atlassian/tether/bf85430889b5231fbe5b383416cce6281225bf06:
-    resolution: {tarball: https://codeload.github.com/atlassian/tether/tar.gz/bf85430889b5231fbe5b383416cce6281225bf06}
+  git@github.com+atlassian/tether/bf85430889b5231fbe5b383416cce6281225bf06:
+    resolution: {commit: bf85430889b5231fbe5b383416cce6281225bf06, repo: git@github.com:atlassian/tether.git, type: git}
     name: tether
     version: 0.6.5
     dev: true
