@@ -601,7 +601,7 @@ importers:
         version: 7.4.6(react-dom@18.1.0)(react@18.1.0)
       '@storybook/builder-vite':
         specifier: ^7.4.6
-        version: 7.4.6(typescript@5.4.2)(vite@4.5.2)
+        version: 7.4.6(typescript@5.4.2)(vite@4.5.5)
       '@storybook/cli':
         specifier: ^7.4.6
         version: 7.4.6
@@ -622,7 +622,7 @@ importers:
         version: 7.4.6(react-dom@18.1.0)(react@18.1.0)(typescript@5.4.2)
       '@storybook/react-vite':
         specifier: ^7.4.6
-        version: 7.4.6(react-dom@18.1.0)(react@18.1.0)(typescript@5.4.2)(vite@4.5.2)
+        version: 7.4.6(react-dom@18.1.0)(react@18.1.0)(typescript@5.4.2)(vite@4.5.5)
       '@storybook/theming':
         specifier: ^7.4.6
         version: 7.6.17(react-dom@18.1.0)(react@18.1.0)
@@ -829,7 +829,7 @@ importers:
         version: 2.10.0
       '@vitejs/plugin-react':
         specifier: ^3.1.0
-        version: 3.1.0(vite@4.5.2)
+        version: 3.1.0(vite@4.5.5)
       '@vscode/test-electron':
         specifier: ^2.3.2
         version: 2.3.9
@@ -1080,8 +1080,8 @@ importers:
         specifier: ^2.0.2
         version: 2.0.2
       vite:
-        specifier: ^4.1.4
-        version: 4.5.2(@types/node@20.8.0)(sass@1.32.4)
+        specifier: ^4.5.5
+        version: 4.5.5(@types/node@20.8.0)(sass@1.32.4)
       vite-plugin-turbosnap:
         specifier: ^1.0.3
         version: 1.0.3
@@ -1857,7 +1857,7 @@ packages:
       object-assign: 4.0.1
       skatejs: 0.13.17
       skatejs-template-html: 0.0.0
-      tether: github.com/atlassian/tether/bf85430889b5231fbe5b383416cce6281225bf06
+      tether: git/github.com+atlassian/tether/bf85430889b5231fbe5b383416cce6281225bf06
       trim-extra-html-whitespace: 1.3.0
       underscore: 1.13.1
       webcomponents.js: 0.7.20
@@ -5558,7 +5558,7 @@ packages:
       '@types/yargs': 17.0.23
       chalk: 4.1.2
 
-  /@joshwooding/vite-plugin-react-docgen-typescript@0.2.1(typescript@5.4.2)(vite@4.5.2):
+  /@joshwooding/vite-plugin-react-docgen-typescript@0.2.1(typescript@5.4.2)(vite@4.5.5):
     resolution: {integrity: sha512-ou4ZJSXMMWHqGS4g8uNRbC5TiTWxAgQZiVucoUrOCWuPrTbkpJbmVyIi9jU72SBry7gQtuMEDp4YR8EEXAg7VQ==}
     peerDependencies:
       typescript: '>= 4.3.x'
@@ -5572,7 +5572,7 @@ packages:
       magic-string: 0.27.0
       react-docgen-typescript: 2.2.2(typescript@5.4.2)
       typescript: 5.4.2
-      vite: 4.5.2(@types/node@20.8.0)(sass@1.32.4)
+      vite: 4.5.5(@types/node@20.8.0)(sass@1.32.4)
     dev: true
 
   /@jridgewell/gen-mapping@0.3.5:
@@ -9167,7 +9167,7 @@ packages:
       - supports-color
     dev: true
 
-  /@storybook/builder-vite@7.4.6(typescript@5.4.2)(vite@4.5.2):
+  /@storybook/builder-vite@7.4.6(typescript@5.4.2)(vite@4.5.5):
     resolution: {integrity: sha512-xV9STYK+TkqWWTf2ydm6jx+7P70fjD2UPd1XTUw08uKszIjhuuxk+bG/OF5R1E25mPunAKXm6kBFh351AKejBg==}
     peerDependencies:
       '@preact/preset-vite': '*'
@@ -9202,7 +9202,7 @@ packages:
       remark-slug: 6.1.0
       rollup: 3.29.4
       typescript: 5.4.2
-      vite: 4.5.2(@types/node@20.8.0)(sass@1.32.4)
+      vite: 4.5.5(@types/node@20.8.0)(sass@1.32.4)
     transitivePeerDependencies:
       - encoding
       - supports-color
@@ -10098,7 +10098,7 @@ packages:
       react-dom: 18.1.0(react@18.1.0)
     dev: true
 
-  /@storybook/react-vite@7.4.6(react-dom@18.1.0)(react@18.1.0)(typescript@5.4.2)(vite@4.5.2):
+  /@storybook/react-vite@7.4.6(react-dom@18.1.0)(react@18.1.0)(typescript@5.4.2)(vite@4.5.5):
     resolution: {integrity: sha512-jkjnrf3FxzR5wcmebXRPflrsM4WIDjWyW/NVFJwxi5PeIOk7fE7/QAPrm4NFRUu2Q7DeuH3oLKsw8bigvUI9RA==}
     engines: {node: '>=16'}
     peerDependencies:
@@ -10106,17 +10106,17 @@ packages:
       react-dom: ^16.8.0 || ^17.0.0 || ^18.0.0
       vite: ^3.0.0 || ^4.0.0
     dependencies:
-      '@joshwooding/vite-plugin-react-docgen-typescript': 0.2.1(typescript@5.4.2)(vite@4.5.2)
+      '@joshwooding/vite-plugin-react-docgen-typescript': 0.2.1(typescript@5.4.2)(vite@4.5.5)
       '@rollup/pluginutils': 5.0.2
-      '@storybook/builder-vite': 7.4.6(typescript@5.4.2)(vite@4.5.2)
+      '@storybook/builder-vite': 7.4.6(typescript@5.4.2)(vite@4.5.5)
       '@storybook/react': 7.4.6(react-dom@18.1.0)(react@18.1.0)(typescript@5.4.2)
-      '@vitejs/plugin-react': 3.1.0(vite@4.5.2)
+      '@vitejs/plugin-react': 3.1.0(vite@4.5.5)
       ast-types: 0.14.2
       magic-string: 0.30.5
       react: 18.1.0
       react-docgen: 6.0.0-alpha.3
       react-dom: 18.1.0(react@18.1.0)
-      vite: 4.5.2(@types/node@20.8.0)(sass@1.32.4)
+      vite: 4.5.5(@types/node@20.8.0)(sass@1.32.4)
     transitivePeerDependencies:
       - '@preact/preset-vite'
       - encoding
@@ -12012,7 +12012,7 @@ packages:
       react: 18.1.0
     dev: false
 
-  /@vitejs/plugin-react@3.1.0(vite@4.5.2):
+  /@vitejs/plugin-react@3.1.0(vite@4.5.5):
     resolution: {integrity: sha512-AfgcRL8ZBhAlc3BFdigClmTUMISmmzHn7sB2h9U1odvc5U/MjWXsAaz18b/WoppUTDBzxOJwo2VdClfUcItu9g==}
     engines: {node: ^14.18.0 || >=16.0.0}
     peerDependencies:
@@ -12023,7 +12023,7 @@ packages:
       '@babel/plugin-transform-react-jsx-source': 7.23.3(@babel/core@7.24.0)
       magic-string: 0.27.0
       react-refresh: 0.14.0
-      vite: 4.5.2(@types/node@20.8.0)(sass@1.32.4)
+      vite: 4.5.5(@types/node@20.8.0)(sass@1.32.4)
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -25908,7 +25908,7 @@ packages:
       mlly: 1.5.0
       pathe: 1.1.2
       picocolors: 1.0.0
-      vite: 5.1.5(@types/node@20.8.0)(sass@1.32.4)
+      vite: 4.5.5(@types/node@20.8.0)(sass@1.32.4)
     transitivePeerDependencies:
       - '@types/node'
       - less
@@ -25967,8 +25967,8 @@ packages:
     resolution: {integrity: sha512-p4D8CFVhZS412SyQX125qxyzOgIFouwOcvjZWk6bQbNPR1wtaEzFT6jZxAjf1dejlGqa6fqHcuCvQea6EWUkUA==}
     dev: true
 
-  /vite@4.5.2(@types/node@20.8.0)(sass@1.32.4):
-    resolution: {integrity: sha512-tBCZBNSBbHQkaGyhGCDUGqeo2ph8Fstyp6FMSvTtsXeZSPpSMGlviAOav2hxVTqFcx8Hj/twtWKsMJXNY0xI8w==}
+  /vite@4.5.5(@types/node@20.8.0)(sass@1.32.4):
+    resolution: {integrity: sha512-ifW3Lb2sMdX+WU91s3R0FyQlAyLxOzCSCP37ujw0+r5POeHPwe6udWVIElKQq8gk3t7b8rkmvqC6IHBpCff4GQ==}
     engines: {node: ^14.18.0 || >=16.0.0}
     hasBin: true
     peerDependencies:
@@ -26109,7 +26109,7 @@ packages:
       strip-literal: 1.3.0
       tinybench: 2.6.0
       tinypool: 0.8.2
-      vite: 5.1.5(@types/node@20.8.0)(sass@1.32.4)
+      vite: 4.5.5(@types/node@20.8.0)(sass@1.32.4)
       vite-node: 1.0.0-beta.4(@types/node@20.8.0)(sass@1.32.4)
       why-is-node-running: 2.2.2
     transitivePeerDependencies:
@@ -26946,8 +26946,8 @@ packages:
       react: 18.1.0
     dev: false
 
-  github.com/atlassian/tether/bf85430889b5231fbe5b383416cce6281225bf06:
-    resolution: {tarball: https://codeload.github.com/atlassian/tether/tar.gz/bf85430889b5231fbe5b383416cce6281225bf06}
+  git/github.com+atlassian/tether/bf85430889b5231fbe5b383416cce6281225bf06:
+    resolution: {commit: bf85430889b5231fbe5b383416cce6281225bf06, repo: git@github.com:atlassian/tether.git, type: git}
     name: tether
     version: 0.6.5
     dev: true
