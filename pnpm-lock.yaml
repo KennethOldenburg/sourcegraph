@@ -1509,8 +1509,8 @@ importers:
         specifier: workspace:*
         version: link:../wildcard
       mermaid:
-        specifier: ^10.9.1
-        version: 10.9.1
+        specifier: ^10.9.3
+        version: 10.9.3
     devDependencies:
       '@sourcegraph/build-config':
         specifier: workspace:*
@@ -1573,8 +1573,8 @@ importers:
         specifier: ^3.13.7
         version: 3.13.7
       mermaid:
-        specifier: ^10.9.1
-        version: 10.9.1
+        specifier: ^10.9.3
+        version: 10.9.3
       prismjs:
         specifier: ^1.29.0
         version: 1.29.0
@@ -1857,7 +1857,7 @@ packages:
       object-assign: 4.0.1
       skatejs: 0.13.17
       skatejs-template-html: 0.0.0
-      tether: github.com/atlassian/tether/bf85430889b5231fbe5b383416cce6281225bf06
+      tether: git@github.com+atlassian/tether/bf85430889b5231fbe5b383416cce6281225bf06
       trim-extra-html-whitespace: 1.3.0
       underscore: 1.13.1
       webcomponents.js: 0.7.20
@@ -20029,8 +20029,8 @@ packages:
     resolution: {integrity: sha512-8q7VEgMJW4J8tcfVPy8g09NcQwZdbwFEqhe/WZkoIzjn/3TGDwtOCYtXGxA3O8tPzpczCCDgv+P2P5y00ZJOOg==}
     engines: {node: '>= 8'}
 
-  /mermaid@10.9.1:
-    resolution: {integrity: sha512-Mx45Obds5W1UkW1nv/7dHRsbfMM1aOKA2+Pxs/IGHNonygDHwmng8xTHyS9z4KWVi0rbko8gjiBmuwwXQ7tiNA==}
+  /mermaid@10.9.3:
+    resolution: {integrity: sha512-V80X1isSEvAewIL3xhmz/rVmc27CVljcsbWxkxlWJWY/1kQa4XOABqpDl2qQLGKzpKm6WbTfUEKImBlUfFYArw==}
     dependencies:
       '@braintree/sanitize-url': 6.0.4
       '@types/d3-scale': 4.0.8
@@ -26946,8 +26946,8 @@ packages:
       react: 18.1.0
     dev: false
 
-  github.com/atlassian/tether/bf85430889b5231fbe5b383416cce6281225bf06:
-    resolution: {tarball: https://codeload.github.com/atlassian/tether/tar.gz/bf85430889b5231fbe5b383416cce6281225bf06}
+  git@github.com+atlassian/tether/bf85430889b5231fbe5b383416cce6281225bf06:
+    resolution: {commit: bf85430889b5231fbe5b383416cce6281225bf06, repo: git@github.com:atlassian/tether.git, type: git}
     name: tether
     version: 0.6.5
     dev: true
